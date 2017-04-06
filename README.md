@@ -1,6 +1,7 @@
 # BattleSnake 2017 - Wild's Disciples
 Forked from battlesnake-python.
-Uses A* for basic finding and attempts to go for all food objectives. Currently has a bug where it will randomly hit a wall. 
+Uses A* for basic finding and attempts to go for all food objectives. Currently has a bug where it will randomly hit a wall.
+
 (Edit by PrimordialSalad:  We believe the random wall collision is caused by the algorithm not returning any direction upon algorithm execution, or it does not send it in time, therefore causing the server to choose a move for us, causing us to crash into the wall.  If the lack of return data is just because it didn't send it in time, then it only means that the algorithm needs to be refined.  If it doesn't return any data but finishes executing within the time limit, then we are not aware of what the issue is.)
 
 
